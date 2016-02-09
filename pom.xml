@@ -4,7 +4,11 @@
 
   <groupId>com.archetype</groupId>
   <artifactId>project-archetype</artifactId>
+<<<<<<< HEAD
   <version>1.0.2</version>
+=======
+  <version>1.0.1</version>
+>>>>>>> e521e0d7aa36eea91138e6b216e5e6f319e3479d
   <packaging>maven-archetype</packaging>
 
   <name>project-archetype</name>

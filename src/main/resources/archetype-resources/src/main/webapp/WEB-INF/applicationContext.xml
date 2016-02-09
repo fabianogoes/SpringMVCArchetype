@@ -34,7 +34,11 @@
 	
    <beans:bean id="dsProd" class="org.springframework.jdbc.datasource.DriverManagerDataSource">        
         <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
+<<<<<<< HEAD
         <beans:property name="url" value="jdbc:mysql://localhost:3306/${symbol_dollar}{artifactId}?autoReconnect=true" />
+=======
+        <beans:property name="url" value="jdbc:mysql://localhost:3306/${artifactId}?autoReconnect=true" />
+>>>>>>> e521e0d7aa36eea91138e6b216e5e6f319e3479d
         <beans:property name="username" value="root" /> 
         <beans:property name="password" value="root" /> 
     </beans:bean>
@@ -59,4 +63,8 @@
                       entity-manager-factory-ref="entityManagerFactory"
                       transaction-manager-ref="transactionManager"/>	
 	
+<<<<<<< HEAD
 </beans:beans>
+=======
+</beans:beans>
+>>>>>>> e521e0d7aa36eea91138e6b216e5e6f319e3479d
